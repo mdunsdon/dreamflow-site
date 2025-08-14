@@ -15,12 +15,18 @@ export default function AboutPage() {
             <li>Values → non‑judgment, practicality, and ease</li>
           </ul>
         </div>
-        <div className="card">
-          <h3 className="mb-2">Work with me</h3>
-          <p className="text-gray-700">Tell me your top money goal for the next 90 days.</p>
-          <a className="btn-primary mt-4 inline-block" href="/contact">Book a clarity call</a>
-        </div>
-      </div>
-    </section>
-  );
-}
+      <div className="space-y-6">
+  <div className="relative rounded-2xl overflow-hidden border border-gray-200">
+    <img 
+      src="/images/facilitation.jpg" 
+      alt="Micheal facilitating breathwork" 
+      className="w-full h-72 object-cover" 
+    />
+  </div>
+
+  <div className="card">
+    <h3 className="mb-2">Work with me</h3>
+    <p className="text-gray-700">Tell me your top money goal for the next 90 days.</p>
+    <a className="btn-primary mt-4 inline-block" href="/contact">Book a clarity call</a>
+  </div>
+</div>
