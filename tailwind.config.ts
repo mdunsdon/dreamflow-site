@@ -7,12 +7,13 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        brand: {
-          DEFAULT: "#4f46e5", // indigo-600
-          light: "#6366f1",
-          dark: "#4338ca"
-        }
-      }
+  brand: {
+    DEFAULT: "#0d9488", // teal-600
+    light: "#14b8a6",
+    dark: "#0f766e"
+  }
+}
+
     },
   },
   plugins: [],
