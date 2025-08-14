@@ -1,0 +1,1 @@
+export default function Page(){return (<div className='section'><div className='container'><h1>Privacy</h1><p className='mt-4 text-gray-700'>Your privacy matters. Update this page with your policy.</p></div></div>);}

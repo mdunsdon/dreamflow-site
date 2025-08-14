@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --radius: 1.25rem;
+}
+body {
+  @apply bg-white text-gray-900 antialiased;
+}
+.container {
+  @apply max-w-6xl mx-auto px-4;
+}
+.btn {
+  @apply inline-flex items-center justify-center rounded-2xl px-5 py-3 font-medium shadow-sm;
+}
+.btn-primary {
+  @apply btn bg-brand text-white hover:bg-brand-dark focus:outline-none;
+}
+.btn-secondary {
+  @apply btn bg-gray-100 hover:bg-gray-200;
+}
+.card {
+  @apply rounded-2xl border border-gray-200 p-6 shadow-sm bg-white;
+}
+.section {
+  @apply py-16 md:py-20;
+}
+h1,h2,h3 {
+  @apply tracking-tight;
+}
+h1 { @apply text-4xl md:text-5xl font-bold; }
+h2 { @apply text-3xl md:text-4xl font-semibold; }
+h3 { @apply text-2xl md:text-3xl font-semibold; }
